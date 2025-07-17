@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+    padding: 0px;
+}
+
+.kepala{
+    background-color:#ff2869;
+    margin: 0px;
+    align-items: center;
+
+}
+        .kepala h1{
+            padding: 10px;
+            padding-top: 40px;
+            font-family: 'Chewy' , verdana;
+            color: antiquewhite;
+            font-size: 2.3em;
+            text-align: center;
+            align-items: center;
+        }
+
+    .navbar ul{
+        background-color: antiquewhite;
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 5px solid #b31d36;
+    }
+    .navbar ul li{
+        float: left;
+
+    }
+        .navbar ul li a{
+            text-decoration: none;
+            font-family: 'Chewy', verdana;
+            font-size: 15px;
+            color: #b31d36;
+            padding: 10px 20px;
+            display: block;
+        }
+            .navbar ul li:hover:not(.on){
+                background-color: #fff9f2;
+            }
+
+        .navbar ul li .on{
+            background-color: #b31d36;
+            color: white;
+        }
+
+    .kepala h1{
+        text-align:center;
+    }
+
+    #sora{
+        height: 200px;
+        float: left;
+        margin-left: 20px;  margin-right: 30px;
+        border: 2px solid antiquewhite;
+        box-shadow: 2px 2px 3px;
+    }
+    #soraa{
+        font-family: 'Edu SA Hand' , sans-serif;
+        line-height: 2;
+        padding: 20px;
+        color:#b31d36;
+    }
+
+
+
+.hobi li{
+    list-style: none;
+}
+.hobi li p{
+    font-family: 'Edu SA Hand' , sans-serif;
+}
+    .hobi li div{
+        height: 200px;
+        width: 350px;
+        border: 2px solid #b31d36;
+        overflow: auto;
+        display: flex;
+    } 
+        .hobi li div img{
+            height: 200px;
+            float: left;
+            margin-right: 5px;
+        }
+
+
+
+.mainmedia h2 {
+        font-family: 'Edu SA Hand' , sans-serif;
+    }
+    .mainmedia .icons {
+        width: 100px;
+        height: 110px;
+        display: inline-block;
+        background-color: #ff8ab7;
+        text-align:center;
+        margin: 10px;
+        border: 2px solid #b31d36;
+        border-radius: 20%;
+        padding: 5px;
+    }
+    .mainmedia .icons:hover {
+        background-color: #b31d36;
+    }
+        .mainmedia .icons a {
+            text-decoration: none;
+            color: white;
+            line-height: 0.5;
+            font-family: 'Edu SA Hand' , sans-serif;
+            font-weight: bold;
+        }
+        .mainmedia .icons a .desc {
+            font-size: 12px;
+            font-weight: normal;
+            font-family: 'Edu SA Hand' , sans-serif;
+        }
